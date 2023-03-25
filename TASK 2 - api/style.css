@@ -1,0 +1,88 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+h1 {
+  margin: 0;
+}
+
+button {
+  background-color: #af5e4c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 30px;
+  margin-top: 15px;
+}
+.btn-text {
+  font-family: "Times New Roman", sans-serif;
+  font-size: 1.5em;
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+}
+.nav-title {
+  font-family: "Times New Roman", sans-serif;
+  font-size: 1.5em;
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+}
+
+.btn-text {
+  padding: 9px 25px;
+  background-color: lightcoral;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease 0s;
+}
+
+.btn-text:hover {
+  background-color: lightsalmon;
+}
+.cards {
+  display: table;
+}
+
+.card {
+  font-family: "Bahnschrift", sans-serif;
+  width: 400px;
+  padding-top: 60px;
+  height: 200px;
+  background: #fff;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.8);
+  display: inline-block;
+  border-radius: 1rem;
+  margin: 3rem;
+}
+
+
+
+.profile-image img {
+  width: 120px;
+  height: 120px;
+  position: relative;
+  margin-top: -80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100px;
+  border: 5px solid #af5e4c;
+ 
+}
+
+
